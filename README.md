@@ -1,15 +1,47 @@
-# Resumo do Código
+# Calculadora Programadora em C
 
-Este código é uma calculadora programadora em C que realiza as seguintes funcionalidades:
+Aplicação desenvolvida em C com o objetivo de explorar conversões entre diferentes bases numéricas e compreender a representação interna de números em ponto flutuante na memória do computador.
 
-## Conversões de Base
-- **Decimal para Binário**: Converte um número decimal para binário.
-- **Decimal para Octal**: Converte um número decimal para octal.
-- **Decimal para Hexadecimal**: Converte um número decimal para hexadecimal.
-- **Decimal para BCD**: Converte um número decimal para sua representação em Código Binário Codificado (BCD).
+O projeto foi criado com foco no aprendizado de conceitos fundamentais de arquitetura de computadores, sistemas numéricos e manipulação de bits.
 
-## Exibição de Bits de `float` e `double`
-- **Exibir Bits de `float`**: Exibe a representação binária de um número `float`, mostrando o sinal, o expoente e a fração.
-- **Exibir Bits de `double`**: Exibe a representação binária de um número `double`, separando o sinal, o expoente e a fração.
+## Funcionalidades
 
-Essas funcionalidades são úteis para conversões entre bases numéricas e para entender como os números de ponto flutuante são representados internamente na memória.
+### Conversões de Base
+
+- Decimal → Binário
+- Decimal → Octal
+- Decimal → Hexadecimal
+- Decimal → BCD (Binary Coded Decimal)
+
+### Representação em Memória
+
+- Exibição da representação binária de valores `float`
+- Exibição da representação binária de valores `double`
+- Separação visual dos campos de **sinal**, **expoente** e **mantissa (fração)** conforme o padrão IEEE 754
+
+## Tecnologias Utilizadas
+
+- C
+- GCC (ou outro compilador compatível)
+
+## Como Executar
+
+```bash
+gcc calculadora.c -o calculadora
+./calculadora
+```
+
+## Conceitos Praticados
+
+- Sistemas de numeração
+- Conversão entre bases
+- Manipulação de bits
+- Estruturas condicionais
+- Funções em C
+- Representação IEEE 754
+- Arquitetura de computadores
+
+
+## 👩‍💻 Autora
+
+**Gabriela Isabel**
