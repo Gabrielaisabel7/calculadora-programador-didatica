@@ -40,8 +40,3 @@ gcc calculadora.c -o calculadora
 - Funções em C
 - Representação IEEE 754
 - Arquitetura de computadores
-
-
-## 👩‍💻 Autora
-
-**Gabriela Isabel**
